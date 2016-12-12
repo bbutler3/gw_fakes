@@ -7,8 +7,8 @@ bigra = 55.715
 lilra = 55.273
 
 # set spacing of Mag20 fakes in RA,DEC directions in arcminutes
-delra = .5
-deldec = .5
+delra = 1
+deldec = 1
 
 # prep output file
 outfile = 'mag20.radec'
