@@ -10,7 +10,9 @@ You can then specify the names of the two output files. For the fake coordinate 
 ### upload.csh
 
 This code is used to upload your newly generated fake coordinates to the database, from which they will be pulled for use in the diffimg pipeline. At the top, make sure the four variables are set as follows:
-  `set table = SNFAKE
+```
+set table = SNFAKE
 set schema      = marcelle
 set fakeversion = KBOMAG20NGC1433
-set idoffset    = 10000000`
+set idoffset    = 10000000
+```
