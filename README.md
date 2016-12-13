@@ -20,6 +20,6 @@ You should change `fakeversion` to something new for each new _area_ of fakes yo
 
 ### Editing the `MAKESCRIPT_DIFFIMG_TEMPLATE.INPUT` file before running through the pipeline
 
-Before you run the `DAGMAKER.sh` script, you'll need to edit the `MAKESCRIPT_DIFFIMG_TEMPLATE.INPUT` file to match the `fakeversion` you specified in the `upload.csh` file. _The version I supplied here is just an example; you should already have a copy of this file wherever you have your copy of the diffimg pipeline files._ This should be on line 61 (if it ends up not being exactly at that location, it's the first line starting with `DOFAKE_OPTIONS:`. At the very end of the line, you need to specify `-dbVersion_SNFake`; this is where you put your `fakeversion` name.
+Before you run the `DAGMAKER.sh` script, you'll need to edit the `MAKESCRIPT_DIFFIMG_TEMPLATE.INPUT` file to match the `fakeversion` you specified in the `upload.csh` file. _The version I supplied here is just an example; you should already have a copy wherever you have your copy of the diffimg pipeline files._ This should be on line 61 (if it ends up not being exactly at that location, it's the first line starting with `DOFAKE_OPTIONS:`. At the very end of the line, you need to specify `-dbVersion_SNFake`; this is where you put your `fakeversion` name.
 
 After all this, assuming you have the rest of the requisites for running the pipeline in order, you can run the dagmaker and submit the dag. 
